@@ -1,0 +1,201 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* css varaibles */
+:root{
+    --navbar-height: 56px
+}
+/* navigation bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position:sticky ;
+    top: 0px;
+    z-index: 2;
+}
+/* logo and image list styling */
+#logo{
+    margin: 10px 34px;
+}
+#logo img{
+    margin: 3px 6px;
+    height: 59px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li{
+    /* color: aliceblue; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: blanchedalmond;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+
+    background: url('../first.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 570px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.85;
+}
+#home h1{
+    color: white;
+    text-align: center;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#serv{
+    margin: 34px;
+    display: flex;
+}
+#serv .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 25px 6px;
+    border-radius: 28px;
+    background: #f2f2f2;
+}
+#serv .box img{
+    height: 169px;
+    margin: auto;
+    display: block;
+}
+#serv .box p{
+    text-align: center;
+}
+
+/* clients section  */
+h1.hprc{
+    text-align: center;
+    font-size: 2.5rem;
+}
+#csec{
+    position: relative;
+}
+#csec::before{
+    content: "";
+    position: absolute;
+    background: url('../salad.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 125px;
+}
+.citem{
+    padding: 34px;
+}
+
+/* contact section */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../contact.jpg') no-repeat center center/cover;
+}
+#conbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#conbox form{
+    width: 40%;
+}
+#conbox label{
+    font-size: 1.3rem;
+}
+#conbox input, #conbox textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+footer{
+    background: black;
+    color: blanchedalmond;
+    padding: 9px 20px;
+}
+/* utility classes */
+.hp{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+.hsec{
+    font-size: 2.3rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: chocolate;
+    color: whitesmoke;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+h1.hpc{
+    text-align: center;
+    font-size: 2.5rem;
+}
