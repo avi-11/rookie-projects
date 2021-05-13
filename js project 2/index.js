@@ -40,7 +40,7 @@ Display.prototype.validate = function (book) {
 Display.prototype.show = function (type, displayMessage) {
     let message = document.getElementById(`message`);
     message.innerHTML = `<div class="alert alert-${type} alert-dismissible fade show" role="alert">
-        <strong>Messge:</strong> ${displayMessage}
+        <strong>Message:</strong> ${displayMessage}
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">×</span>
         </button>
