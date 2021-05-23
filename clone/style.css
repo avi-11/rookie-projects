@@ -18,9 +18,12 @@
 }
 
 #opt{
-    padding: 4px;
+    padding: 8px;
     position: relative;
     left: 470px;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
 
 }
 #sign{
@@ -31,7 +34,32 @@
     background-color: red;
     padding: 8px 18px;
     border-radius: 4px;
+}
 
+.banner .box .search input{
+    font-size: 16px;
+    border: 1px solid #8c8c8c;
+    outline: none;
+    border-radius: 2px;
+    padding: 10px 10px 10px 10px;
+    min-width: 450px;
+    height: 60px;
+    align-items: center;
+    color: black;
+}
+
+.banner .box .search a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    border-radius: 2px;
+    background-color: #e50914;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.45);
+    font-size: 1.625rem;
+    line-height: 60px;
+    min-width: 200px;
+    padding: 0 30px;
 }
 
 #logo{
@@ -65,4 +93,41 @@
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 11;
+}
+
+.banner .box .heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner .box .heading h2{
+    font-size: 3.8rem;
+    color: white;
+    letter-spacing: 2px;
+    width: 80%;
+}
+
+.banner .box .heading h5{
+    font-size: 1.625rem;
+    color: white;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+
+.banner .box .heading p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    padding: 15px 0;
+    padding-bottom: 20px;
+}
+
+.banner .box .search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
