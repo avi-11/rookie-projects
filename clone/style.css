@@ -572,7 +572,7 @@ body{
     }
     #opt{
         position: relative;
-        left: 280px;
+        left: 300px;
     }
     #logo{
         width: 55%;
@@ -582,12 +582,12 @@ body{
 
     .container .head a{
         position: relative;
-        left: 280px;
+        left: 300px;
         padding: 8px 17px;
     }
 
     .banner{
-        width: 178%;
+        width: 190%;
     }
 
     .banner .box .heading{
@@ -631,7 +631,7 @@ body{
     .part1{
         flex-direction: column;
         padding: 4rem 0rem;
-        width: 185%;
+        width: 195%;
     }
     
     .part1 .talk{
@@ -655,7 +655,7 @@ body{
     .part2{
         flex-direction: column-reverse;
         padding: 4rem 0rem;
-        width: 185%;
+        width: 195%;
     }
     
     .part2 .talk{
@@ -678,7 +678,7 @@ body{
 
     .freq{
         padding: 50px 0px;
-        width: 180%;
+        width: 200%;
     }
 
     .freq h1{
