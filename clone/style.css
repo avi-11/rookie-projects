@@ -25,7 +25,7 @@ body{
 #opt{
     padding: 8px;
     position: relative;
-    left: 470px;
+    left: 450px;
     bottom: 11px;
     color: white;
     background-color: black;
@@ -195,6 +195,39 @@ body{
     width: 100%;
 }
 
+.part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 4rem;
+    border-bottom: 0.6rem solid #111;
+}
+
+.part2 .talk{
+    width: 40%;
+}
+
+.part2 .talk h1{
+    font-size: 3.3rem;
+    letter-spacing: 1px;
+    padding-bottom: 18px;
+    color: white;
+}
+
+.part2 .talk p{
+    font-size: 1.8rem;
+    color: white;
+}
+
+.part2 .img1{
+    width: 45%;
+}
+
+.part2 .img1 img{
+    width: 100%;
+}
+
 
 
 .freq{
@@ -314,13 +347,14 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 0px 170px 30px 170px;
+    margin: 0px 170px 30px 111px;
     padding: 0px 82px 8px 50px;
 }
 
 .info .one .items li{
     list-style: none;
     padding: 10px 10px 10px 10px;
+    margin: 0 20px 0px 90px;
     font-size: 13px;
 }
 
@@ -353,4 +387,381 @@ body{
 
 .info .one .items li a:hover{
     text-decoration: underline;
+}
+
+.c1{
+    display: flex;
+    flex-direction: row;
+}
+
+.c2{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 786px){
+    .container .head{
+        padding: 31px 5px;
+    }
+    #opt{
+        position: relative;
+        left: 100px;
+    }
+    #logo{
+        width: 22%;
+    }
+    .banner .box .heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .banner .box .heading h2{
+        font-size: 50px;
+        width: 117%;
+    }
+    
+    .banner .box .heading h5{
+        font-size: 1.8rem;
+    }
+    
+    .banner .box .heading p{
+        font-size: 26px;
+        padding: 0 0;
+        padding-bottom: 20px;
+    }
+
+    .banner .box .search{
+        flex-direction: column;
+    }
+
+    .banner .box .search input{
+        min-width: 520px;
+        height: 62px;
+    }
+    
+    .banner .box .search a{
+        font-size: 1rem;
+        line-height: 40px;
+        min-width: 145px;
+        margin-top: 20px;
+    }
+    .part1{
+        flex-direction: column;
+        padding: 4rem 0rem;
+    }
+    
+    .part1 .talk{
+        width: 80%;
+    }
+
+    .part1 .talk h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .part1 .talk p{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .part1 .img1{
+        width: 80%;
+    }
+
+    .part2{
+        flex-direction: column-reverse;
+        padding: 4rem 0rem;
+    }
+    
+    .part2 .talk{
+        width: 80%;
+    }
+
+    .part2 .talk h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .part2 .talk p{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .part2 .img1{
+        width: 80%;
+    }
+
+    .freq{
+        padding: 50px 0px;
+    }
+
+    .freq h1{
+        font-size: 41px;
+        margin-bottom: 35px;
+    }
+
+    .freq .question button{
+        width: 80%;
+        position: relative;
+        left: 111px;
+        padding: 5px 25px 0px 20px;
+        margin-bottom: 7px;
+        font-size: 25px;
+    }
+
+    .freq .question .faq-answer{
+        width: 80%;
+    position: relative;
+    left: 111px;
+    padding: 25px 30px;
+    font-size: 23px;
+    margin-top: -5px;
+    }
+
+    .heading2{
+        margin: 30px 100px 20px 100px;
+        font-size: 26px;
+    }
+
+    .heading2 p{
+        text-align: center;
+    }
+
+    .search2{
+        flex-direction: column;
+        position: relative;
+        left: 110px;
+        width: 213px;
+    }
+
+    .question .box2 .search2 input{
+        min-width: 510px;
+        height: 60px;
+    }
+
+    .question .box2 .search2 a{
+        position: relative;
+        left: 170px;
+        line-height: 40px;
+        font-size: 1.6rem;
+        min-width: 145px;
+        margin-top: 20px;
+    }
+
+    .call{
+        margin: 75px 0px 10px 65px;
+    }
+
+    #option{
+        left: 62px;
+        top: -15px;
+    }
+
+    .netf p{
+        margin: 20px 70px;
+    }
+
+}
+
+@media screen and (max-width:600px) and (min-width:400px){
+    .container .head{
+        padding: 25px 0 0 0;
+    }
+    #opt{
+        position: relative;
+        left: 280px;
+    }
+    #logo{
+        width: 55%;
+        position: relative;
+        left: 50px;
+    }
+
+    .container .head a{
+        position: relative;
+        left: 280px;
+        padding: 8px 17px;
+    }
+
+    .banner{
+        width: 178%;
+    }
+
+    .banner .box .heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .banner .box .heading h2{
+        font-size: 50px;
+        width: 117%;
+    }
+    
+    .banner .box .heading h5{
+        font-size: 1.8rem;
+    }
+    
+    .banner .box .heading p{
+        font-size: 26px;
+        padding: 0 0;
+        padding-bottom: 20px;
+    }
+
+    .banner .box .search{
+        flex-direction: column;
+    }
+
+    .banner .box .search input{
+        min-width: 520px;
+        height: 62px;
+    }
+    
+    .banner .box .search a{
+        font-size: 1rem;
+        line-height: 40px;
+        min-width: 145px;
+        margin-top: 20px;
+    }
+    .part1{
+        flex-direction: column;
+        padding: 4rem 0rem;
+        width: 185%;
+    }
+    
+    .part1 .talk{
+        width: 80%;
+    }
+
+    .part1 .talk h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .part1 .talk p{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .part1 .img1{
+        width: 80%;
+    }
+
+    .part2{
+        flex-direction: column-reverse;
+        padding: 4rem 0rem;
+        width: 185%;
+    }
+    
+    .part2 .talk{
+        width: 80%;
+    }
+
+    .part2 .talk h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .part2 .talk p{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .part2 .img1{
+        width: 80%;
+    }
+
+    .freq{
+        padding: 50px 0px;
+        width: 180%;
+    }
+
+    .freq h1{
+        font-size: 41px;
+        margin-bottom: 35px;
+    }
+
+    .freq .question button{
+        width: 80%;
+        position: relative;
+        left: 111px;
+        padding: 5px 25px 0px 20px;
+        margin-bottom: 7px;
+        font-size: 25px;
+    }
+
+    .freq .question .faq-answer{
+        width: 80%;
+    position: relative;
+    left: 111px;
+    padding: 25px 30px;
+    font-size: 23px;
+    margin-top: -5px;
+    }
+
+    .heading2{
+        margin: 30px 180px 20px 200px;
+        font-size: 26px;
+    }
+
+    .heading2 p{
+        text-align: center;
+    }
+
+    .search2{
+        flex-direction: column;
+        position: relative;
+        left: 200px;
+        width: 210px;
+    }
+
+    .question .box2 .search2 input{
+        min-width: 580px;
+        height: 55px;
+    }
+
+    .question .box2 .search2 a{
+        position: relative;
+        left: 170px;
+        line-height: 40px;
+        font-size: 1.6rem;
+        min-width: 145px;
+        margin-top: 20px;
+    }
+
+    .footer{
+        width:180%
+    }
+
+    .footer ,.info{
+        margin: 0px 150px 30px 0px;
+    }
+
+    .footer .info .c1{
+        flex-direction: column;
+    }
+
+    .footer .info .c2{
+        flex-direction: column;
+    }
+
+    .call{
+        margin: 75px 0px 10px 200px;
+    }
+
+    #option{
+        left: 200px;
+        top: -15px;
+    }
+
+    .netf p{
+        margin: 20px 70px;
+        position: relative;
+        left: 150px;
+    }
 }
